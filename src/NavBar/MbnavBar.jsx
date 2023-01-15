@@ -7,7 +7,7 @@ function MbnavBar({ MobileViesUp }) {
       <Link
         to="home"
         smooth
-        offset={-500}
+        offset={-600}
         duration={500}
         className="cursor-pointer hover:font-bold"
         onClick={MobileViesUp}
@@ -19,7 +19,7 @@ function MbnavBar({ MobileViesUp }) {
         to="about"
         spy={true}
         duration={500}
-        offset={-500}
+        offset={-600}
         smooth={true}
         onClick={MobileViesUp}
         className="cursor-pointer hover:font-bold"
@@ -30,7 +30,7 @@ function MbnavBar({ MobileViesUp }) {
 
       <Link
         to="works"
-        offset={-500}
+        offset={-600}
         spy={true}
         smooth={true}
         className="cursor-pointer hover:font-bold"
@@ -41,7 +41,7 @@ function MbnavBar({ MobileViesUp }) {
       <hr className="sm:hidden"></hr>
       <Link
         to="curriculm"
-        offset={-500}
+        offset={-600}
         spy={true}
         smooth={true}
         onClick={MobileViesUp}
@@ -52,7 +52,7 @@ function MbnavBar({ MobileViesUp }) {
       <hr className="sm:hidden"></hr>
       <Link
         to="contact"
-        offset={-500}
+        offset={-600}
         spy={true}
         smooth={true}
         className="cursor-pointer hover:font-bold"
